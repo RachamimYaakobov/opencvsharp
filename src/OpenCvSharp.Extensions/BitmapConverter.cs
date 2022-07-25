@@ -35,6 +35,7 @@ namespace OpenCvSharp.Extensions
                 case PixelFormat.Format32bppPArgb:
                     channels = 4; break;
                 case PixelFormat.Format8bppIndexed:
+                    channels = 3; break;
                 case PixelFormat.Format1bppIndexed:
                     channels = 1; break;
                 default:
